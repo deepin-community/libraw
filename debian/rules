@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+INSTDIR=debian/tmp
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--bindir=/usr/lib/libraw \
+		--enable-jpeg
+
+override_dh_install:
+	rm -f $(INSTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+	rm -f $(INSTDIR)/usr/share/doc/libraw/LICENSE.*
+	rm -f $(INSTDIR)/usr/share/doc/libraw/Changelog.txt
+	rm -f $(INSTDIR)/usr/share/doc/libraw/COPYRIGHT
+	dh_install

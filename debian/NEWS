@@ -1,0 +1,8 @@
+libraw (0.20.2-2) unstable; urgency=medium
+
+  This revision ships sample binaries installed on a new location,
+  that is canonical /usr/bin path.
+  If you have scripts using those binaries, please update your code
+  to reflect this change.
+
+ -- Matteo F. Vescovi <mfv@debian.org>  Mon, 19 Oct 2020 23:00:12 +0200

@@ -1,0 +1,26 @@
+#!/bin/sh
+set -e
+
+if [ -n "${DEB_HOST_GNU_TYPE:-}" ]; then
+    CROSS_COMPILE="$DEB_HOST_GNU_TYPE-"
+else
+    CROSS_COMPILE=
+fi
+
+cd "$AUTOPKGTEST_TMP"
+cat > test.c << EOF
+#include <libraw/libraw.h>
+#include <iostream>
+using namespace std;
+
+int main(void)
+{
+        LibRaw RawProcessor;
+        cout << LibRaw::version() << endl;
+        return 0;
+}
+
+EOF
+${CROSS_COMPILE}g++ -Wall -o test test.c -lraw
+./test
+objdump -p test | grep "libraw"
