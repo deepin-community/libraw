@@ -1,4 +1,4 @@
-libraw.so.20 libraw20 #MINVER#
+libraw.so.23 libraw23 #MINVER#
  (c++)"AAHD::AAHD(LibRaw&)@Base" 0.16.0
  (c++)"AAHD::combine_image()@Base" 0.16.0
  (c++)"AAHD::evaluate_ahd()@Base" 0.16.0
@@ -73,7 +73,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::canon_600_load_raw()@Base" 0.16.0
  (c++)"LibRaw::canon_has_lowbits()@Base" 0.16.0
  (c++)"LibRaw::canon_load_raw()@Base" 0.16.0
- (c++)"LibRaw::canon_rmf_load_raw()@Base" 0.16.0
  (c++)"LibRaw::canon_s2is()@Base" 0.16.0
  (c++)"LibRaw::canon_sraw_load_raw()@Base" 0.16.0
  (c++)"LibRaw::capabilities()@Base" 0.18.0
@@ -133,8 +132,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::fuji_14bit_load_raw()@Base" 0.19.0
  (c++)"LibRaw::fuji_bayer_decode_block(fuji_compressed_block*, fuji_compressed_params const*, int)@Base" 0.19.0
  (c++)"LibRaw::fuji_compressed_load_raw()@Base" 0.19.0
- (c++)"LibRaw::fuji_decode_loop(fuji_compressed_params const*, int, long long*, unsigned int*)@Base" 0.19.0
- (c++)"LibRaw::fuji_decode_strip(fuji_compressed_params const*, int, long long, unsigned int)@Base" 0.19.0
  (c++)"LibRaw::fuji_rotate()@Base" 0.16.0
  (c++)"LibRaw::gamma_curve(double, double, int, int)@Base" 0.16.0
  (c++)"LibRaw::get2()@Base" 0.16.0
@@ -165,7 +162,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::is_nikon_sraw()@Base" 0.17.0
  (c++)"LibRaw::is_phaseone_compressed()@Base" 0.16.0
  (c++)"LibRaw::is_sraw()@Base" 0.16.0
- (c++)"LibRaw::jpeg_thumb()@Base" 0.16.0
  (c++)"LibRaw::jpeg_thumb_writer(_IO_FILE*, char*, int)@Base" 0.16.0
  (c++)"LibRaw::kodak_262_load_raw()@Base" 0.16.0
  (c++)"LibRaw::kodak_65000_decode(short*, int)@Base" 0.16.0
@@ -179,7 +175,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::kodak_thumb_load_raw()@Base" 0.16.0
  (c++)"LibRaw::kodak_thumb_loader()@Base" 0.16.0
  (c++)"LibRaw::kodak_ycbcr_load_raw()@Base" 0.16.0
- (c++)"LibRaw::layer_thumb()@Base" 0.16.0
  (c++)"LibRaw::lch_to_rgb(double (*) [3])@Base" 0.16.0
  (c++)"LibRaw::leaf_hdr_load_raw()@Base" 0.16.0
  (c++)"LibRaw::lin_interpolate()@Base" 0.16.0
@@ -197,7 +192,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++|arch-bits=64)"LibRaw::malloc(unsigned long)@Base" 0.19.0
  (c++)"LibRaw::median4(int*)@Base" 0.16.0
  (c++)"LibRaw::median_filter()@Base" 0.16.0
- (c++)"LibRaw::merror(void*, char const*)@Base" 0.16.0
  (c++)"LibRaw::minolta_rd175_load_raw()@Base" 0.16.0
  (c++)"LibRaw::minolta_z2()@Base" 0.16.0
  (c++)"LibRaw::nikon_3700()@Base" 0.16.0
@@ -210,10 +204,7 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::nikon_yuv_load_raw()@Base" 0.17.0
  (c++)"LibRaw::nokia_load_raw()@Base" 0.16.0
  (c++)"LibRaw::olympus_load_raw()@Base" 0.16.0
- (c++)"LibRaw::open_bayer(unsigned char*, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, unsigned char, unsigned int, unsigned int, unsigned int)@Base" 0.19.0
- (c++|arch-bits=64)"LibRaw::open_buffer(void*, unsigned long)@Base" 0.19.0
  (c++)"LibRaw::open_datastream(LibRaw_abstract_datastream*)@Base" 0.16.0
- (c++)"LibRaw::open_file(char const*, long long)@Base" 0.16.0
  (c++)"LibRaw::packed_dng_load_raw()@Base" 0.16.0
  (c++)"LibRaw::packed_load_raw()@Base" 0.16.0
  (c++)"LibRaw::pana_data(int, unsigned int*)@Base" 0.19.0
@@ -234,11 +225,8 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parse_makernote(int, int)@Base" 0.16.0
  (c++)"LibRaw::parse_makernote_0xc634(int, int, unsigned int)@Base" 0.17.0
  (c++)"LibRaw::parse_minolta(int)@Base" 0.16.0
- (c++)"LibRaw::parse_mos(int)@Base" 0.16.0
  (c++)"LibRaw::parse_phase_one(int)@Base" 0.16.0
  (c++)"LibRaw::parse_qt(int)@Base" 0.17.0
- (c++)"LibRaw::parse_redcine()@Base" 0.16.0
- (c++)"LibRaw::parse_riff()@Base" 0.16.0
  (c++)"LibRaw::parse_rollei()@Base" 0.16.0
  (c++)"LibRaw::parse_sinar_ia()@Base" 0.16.0
  (c++)"LibRaw::parse_smal(int, int)@Base" 0.16.0
@@ -256,8 +244,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::phase_one_load_raw_c()@Base" 0.16.0
  (c++)"LibRaw::phase_one_subtract_black(unsigned short*, unsigned short*)@Base" 0.16.0
  (c++)"LibRaw::ppg_interpolate()@Base" 0.16.0
- (c++)"LibRaw::ppm16_thumb()@Base" 0.16.0
- (c++)"LibRaw::ppm_thumb()@Base" 0.16.0
  (c++)"LibRaw::pre_interpolate()@Base" 0.16.0
  (c++)"LibRaw::processNikonLensData(unsigned char*, unsigned int)@Base" 0.17.0
  (c++)"LibRaw::process_Sony_0x2010(unsigned char*, unsigned short)@Base" 0.19.0
@@ -275,11 +261,9 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::recover_highlights()@Base" 0.16.0
  (c++)"LibRaw::recycle()@Base" 0.16.0
  (c++)"LibRaw::recycle_datastream()@Base" 0.16.0
- (c++)"LibRaw::redcine_load_raw()@Base" 0.16.0
  (c++)"LibRaw::remove_zeroes()@Base" 0.16.0
  (c++)"LibRaw::rgb_to_lch(double (*) [3])@Base" 0.16.0
  (c++)"LibRaw::rollei_load_raw()@Base" 0.16.0
- (c++)"LibRaw::rollei_thumb()@Base" 0.16.0
  (c++)"LibRaw::romm_coeff(float (*) [3])@Base" 0.16.0
  (c++)"LibRaw::samsung2_load_raw()@Base" 0.17.0
  (c++)"LibRaw::samsung3_load_raw()@Base" 0.17.0
@@ -341,7 +325,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw_bigfile_datastream::fname()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::get_char()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::gets(char*, int)@Base" 0.16.0
- (c++)"LibRaw_bigfile_datastream::make_jas_stream()@Base" 0.16.0
  (c++|arch-bits=64)"LibRaw_bigfile_datastream::read(void*, unsigned long, unsigned long)@Base" 0.19.0
  (c++)"LibRaw_bigfile_datastream::scanf_one(char const*, void*)@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::seek(long long, int)@Base" 0.16.0
@@ -349,46 +332,18 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw_bigfile_datastream::tell()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::valid()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::~LibRaw_bigfile_datastream()@Base" 0.16.0
- (c++|arch-bits=64)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void*, unsigned long)@Base" 0.19.0
  (c++)"LibRaw_buffer_datastream::eof()@Base" 0.16.0
  (c++)"LibRaw_buffer_datastream::get_char()@Base" 0.16.0
  (c++)"LibRaw_buffer_datastream::gets(char*, int)@Base" 0.16.0
  (c++)"LibRaw_buffer_datastream::jpeg_src(void*)@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::make_jas_stream()@Base" 0.16.0
- (c++|arch-bits=64)"LibRaw_buffer_datastream::read(void*, unsigned long, unsigned long)@Base" 0.19.0
- (c++)"LibRaw_buffer_datastream::scanf_one(char const*, void*)@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::seek(long long, int)@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::size()@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::tell()@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::valid()@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::~LibRaw_buffer_datastream()@Base" 0.16.0
  (c++)"LibRaw_constants::d65_white@Base" 0.16.0
  (c++)"LibRaw_constants::xyz_rgb@Base" 0.16.0
- (c++)"LibRaw_file_datastream::LibRaw_file_datastream(char const*)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::eof()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::fname()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::get_char()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::gets(char*, int)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::make_jas_stream()@Base" 0.16.0
- (c++|arch-bits=64)"LibRaw_file_datastream::read(void*, unsigned long, unsigned long)@Base" 0.19.0
- (c++)"LibRaw_file_datastream::scanf_one(char const*, void*)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::seek(long long, int)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::size()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::tell()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::valid()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::~LibRaw_file_datastream()@Base" 0.16.0
- (c++|arch-bits=64)"crxParamInit(libraw_memmgr&, CrxBandParam**, unsigned long, unsigned long, unsigned int, unsigned int, int, unsigned int, LibRaw_abstract_datastream*)@Base" 0.20.0
- (c++|arch-bits=64)"crxSetupImageData(crx_data_header_t*, CrxImage*, short*, unsigned long, unsigned int, int, unsigned char*)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::remove_trailing_spaces(char*, unsigned long)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::memmem(char*, unsigned long, char*, unsigned long)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::stread(char*, unsigned long, LibRaw_abstract_datastream*)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::strnlen(char const*, unsigned long)@Base" 0.20.0
- (c++|arch-bits=32)"LibRaw_file_datastream::read(void*, unsigned int, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw_buffer_datastream::read(void*, unsigned int, unsigned int)@Base" 0.19.0
- (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void*, unsigned int)@Base" 0.19.0
- (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void*, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw_bigfile_datastream::read(void*, unsigned int, unsigned int)@Base" 0.19.0
- (c++|arch-bits=32)"LibRaw::open_buffer(void*, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw::calloc(unsigned int, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw::malloc(unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw::realloc(void*, unsigned int)@Base" 0.19.0
@@ -399,25 +354,102 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"crxDecodeTopLine(CrxBandParam*)@Base" 0.20.0
  (c++)"crxFreeImageData(CrxImage*)@Base" 0.20.0
  (c++)"crxFreeSubbandData(CrxImage*, CrxPlaneComp*)@Base" 0.20.0
+ (c++)"setup_qlut(signed char*, int*)@Base" 0.21.1
+ (c++)"sget4_order(short, unsigned char*)@Base" 0.21.1
+ (c++)"crxMakeQStep(CrxImage*, CrxTile*, int*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=64)"crxParamInit(CrxImage*, CrxBandParam**, unsigned long, unsigned long, unsigned int, unsigned int, bool, unsigned int)@Base" 0.21.1
+ (c++)"unsigned_cmp(void const*, void const*)@Base" 0.21.1
+ (c++)"decode_S_type(int, unsigned int*, unsigned short*)@Base" 0.21.1
+ (c++)"sget_fixed32u(short, unsigned char*)@Base" 0.21.1
+ (c++)"AngleConversion(short, unsigned char*)@Base" 0.21.1
+ (c++)"crxUpdateQparam(CrxSubband*)@Base" 0.21.1
+ (c++)"init_main_grads(fuji_compressed_params const*, fuji_compressed_block*)@Base" 0.21.1
+ (c++)"init_main_qtable(fuji_compressed_params*, unsigned char)@Base" 0.21.1
+ (c++)"AngleConversion_a(short, unsigned char*)@Base" 0.21.1
+ (c++|arch-bits=64)"crxSetupImageData(crx_data_header_t*, CrxImage*, short*, unsigned long, unsigned int, unsigned char*, int)@Base" 0.21.1
+ (c++)"crxDecodeGolombTop(CrxBitstream*, int, int*, int*)@Base" 0.21.1
+ (c++)"crxProcessSubbands(crx_data_header_t*, CrxImage*, CrxTile*, CrxPlaneComp*)@Base" 0.21.1
+ (c++)"libraw_int_to_float(int)@Base" 0.21.1
+ (c++)"libraw_sget2_static(short, unsigned char*)@Base" 0.21.1
+ (c++)"libraw_sget4_static(short, unsigned char*)@Base" 0.21.1
+ (c++)"crxDecodeGolombNormal(CrxBitstream*, int, int*, int*, int*)@Base" 0.21.1
+ (c++)"crxIdwt53FilterDecode(CrxPlaneComp*, int, CrxQStep*)@Base" 0.21.1
+ (c++)"libraw_sgetreal_static(short, int, unsigned char*)@Base" 0.21.1
+ (c++)"crxIdwt53FilterInitialize(CrxPlaneComp*, int, CrxQStep*)@Base" 0.21.1
+ (c++)"libraw_tagtype_dataunit_bytes(int)@Base" 0.21.1
+ (c++)"crxDecodeLineWithIQuantization(CrxSubband*, CrxQStep*)@Base" 0.21.1
+ (c++)"CanonCameraInfo_checkFirmwareRecordLocation(unsigned char*)@Base" 0.21.1
+ (c++)"crxReadQP(CrxBitstream*, int)@Base" 0.21.1
+ (c++)"LibRaw_constants::rec2020_rgb@Base" 0.21.1
+ (c++)"LibRaw_constants::dcip3d65_rgb@Base" 0.21.1
+ (c++)"tile_stripe_data_t::init(tiff_ifd_t*, libraw_image_sizes_t const&, unpacker_data_t const&, short, LibRaw_abstract_datastream*)@Base" 0.21.1
+ (c++)"pana_cs6_page_decoder::read_page12()@Base" 0.21.1
+ q_step_tbl@Base 0.21.1
+ (c++|arch-bits=64)"LibRaw_buffer_datastream::read(void*, unsigned long, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::seek(long long, int)@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::size()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::tell()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::valid()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::scanf_one(char const*, void*)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void const*, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::~LibRaw_buffer_datastream()@Base" 0.21.1
+ (c++)"LibRaw::open_bayer(unsigned char const*, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, unsigned char, unsigned int, unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::parse_riff(int)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw::libraw_swab(void*, unsigned long)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw::open_buffer(void const*, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw::get_CanonArea()@Base" 0.21.1
+ (c++)"LibRaw::parseCR3_CTMD(short)@Base" 0.21.1
+ (c++)"LibRaw::parseCR3_Free()@Base" 0.21.1
+ (c++)"LibRaw::selectCRXFrame(short, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::selectCRXTrack()@Base" 0.21.1
+ (c++)"LibRaw::unpack_thumb_ex(int)@Base" 0.21.1
+ (c++)"LibRaw::free_omp_buffers(char**, int)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw::malloc_omp_buffers(int, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw::crxParseImageHeader(unsigned char*, int, int)@Base" 0.21.1
+ (c++)"LibRaw::sony_ljpeg_load_raw()@Base" 0.21.1
+ (c++)"LibRaw::libraw_openfile_tail(LibRaw_abstract_datastream*)@Base" 0.21.1
+ (c++)"LibRaw::parse_fuji_thumbnail(int)@Base" 0.21.1
+ (c++)"LibRaw::phase_one_load_raw_s()@Base" 0.21.1
+ (c++)"LibRaw::parseOlympusMakernotes(int, unsigned int, unsigned int, unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::guess_RAFDataGeneration(unsigned char*)@Base" 0.21.1
+ (c++)"LibRaw::adjust_to_raw_inset_crop(unsigned int, float)@Base" 0.21.1
+ (c++)"LibRaw::phase_one_fix_pixel_grad(unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::packed_tiled_dng_load_raw()@Base" 0.21.1
+ (c++)"LibRaw::phase_one_fix_col_pixel_avg(unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::uncompressed_fp_dng_load_raw()@Base" 0.21.1
+ (c++)"LibRaw::nikon_he_load_raw_placeholder()@Base" 0.21.1
+ (c++)"LibRaw::p1rawc(unsigned int, unsigned int, unsigned int&)@Base" 0.21.1
+ (c++)"LibRaw::parseCR3(long long, long long, short&, char*, short&, short&)@Base" 0.21.1
+ (c++)"LibRaw::open_file(char const*)@Base" 0.21.1
+ (c++)"LibRaw::parse_mos(long long)@Base" 0.21.1
+ (c++)"void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int const&)@Base" 0.21.1
+ (c++)"LibRaw::fuji_decode_loop(fuji_compressed_params*, int, long long*, unsigned int*, unsigned char*)@Base" 0.21.1
+ (c++)"LibRaw::fuji_decode_strip(fuji_compressed_params*, int, long long, unsigned int, unsigned char*)@Base" 0.21.1
  (c++)"crxConvertPlaneLine(CrxImage*, int, int, int, int*, int)@Base" 0.20.0
  (c++)"crxReadImageHeaders(crx_data_header_t*, CrxImage*, unsigned char*, int)@Base" 0.20.0
  (c++)"crxSetupSubbandData(CrxImage*, CrxPlaneComp*, CrxTile const*, unsigned int)@Base" 0.20.0
  (c++)"crxDecodeLineRounded(CrxBandParam*)@Base" 0.20.0
- (c++)"crxIdwt53FilterDecode(CrxPlaneComp*, int)@Base" 0.20.0
  (c++)"crxReadSubbandHeaders(crx_data_header_t*, CrxImage*, CrxTile*, CrxPlaneComp*, unsigned char**, int*)@Base" 0.20.0
  (c++)"crxIdwt53FilterGetLine(CrxPlaneComp*, int)@Base" 0.20.0
  (c++)"crxDecodeTopLineRounded(CrxBandParam*)@Base" 0.20.0
  (c++)"crxIdwt53FilterTransform(CrxPlaneComp*, unsigned int)@Base" 0.20.0
- (c++)"crxIdwt53FilterInitialize(CrxPlaneComp*, int)@Base" 0.20.0
  (c++)"crxDecodeLineNoRefPrevLine(CrxBandParam*)@Base" 0.20.0
  (c++)"crxDecodeTopLineNoRefPrevLine(CrxBandParam*)@Base" 0.20.0
- (c++)"crxDecodeLineWithIQuantization(CrxSubband*)@Base" 0.20.0
  (c++)"LibRaw_constants::xyzd50_srgb@Base" 0.20.0
  (c++)"LibRaw_constants::prophoto_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::rgb_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::aces_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::wide_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::adobe_rgb@Base" 0.20.0
+ (c++|arch-bits=32)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
+ (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
+ (c++)"libraw_static_table_t::operator[](unsigned int) const@Base" 0.21.1
+ (c++|arch-bits=64)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)@Base" 0.21.1
+ (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
+ (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
+ (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
+ (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
  (c++)"pana_cs6_page_decoder::read_page()@Base" 0.20.0
  (c++)"LibRaw_abstract_datastream::buffering_off()@Base" 0.20.0
  (c++)"LibRaw::aRGB_coeff(double (*) [3])@Base" 0.20.0
@@ -435,7 +467,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parse_kyocera()@Base" 0.20.0
  (c++)"LibRaw::PentaxLensInfo(unsigned long long, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::crxDecodePlane(void*, unsigned int)@Base" 0.20.0
- (c++)"LibRaw::selectCRXTrack(short)@Base" 0.20.0
  (c++)"LibRaw::Nikon_NRW_WBtag(int, int)@Base" 0.20.0
  (c++)"LibRaw::Pentax_wb_list1@Base" 0.20.0
  (c++)"LibRaw::Pentax_wb_list2@Base" 0.20.0
@@ -457,7 +488,6 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parseLeicaLensName(unsigned int)@Base" 0.20.0
  (c++)"LibRaw::parse_exif_interop(int)@Base" 0.20.0
  (c++)"LibRaw::process_Hassy_Lens(int)@Base" 0.20.0
- (c++)"LibRaw::crxParseImageHeader(unsigned char*, int)@Base" 0.20.0
  (c++)"LibRaw::parseEpsonMakernote(int, int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::parseFujiMakernotes(unsigned int, unsigned int, unsigned int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::parseLeicaMakernote(int, int, unsigned int)@Base" 0.20.0
@@ -509,20 +539,27 @@ libraw.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parseOlympus_ImageProcessing(unsigned int, unsigned int, unsigned int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::vc5_dng_load_raw_placeholder()@Base" 0.20.0
  (c++)"LibRaw::identify_finetune_by_filesize(int)@Base" 0.20.0
- (c++)"LibRaw::float_dng_load_raw_placeholder()@Base" 0.20.0
  (c++)"LibRaw::Canon_KeyIsZero_Len2048_linenums_2_StdWBi@Base" 0.20.0
  (c++)"LibRaw::Canon_KeyIs0x0410_Len2048_linenums_2_StdWBi@Base" 0.20.0
  (c++)"LibRaw::Canon_KeyIs0x0410_Len3072_linenums_2_StdWBi@Base" 0.20.0
  (c++)"LibRaw::p1raw(unsigned int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::getwords(char*, char**, int, int)@Base" 0.20.0
- (c++)"LibRaw::parseCR3(unsigned long long, unsigned long long, short&, char*, short&, short&)@Base" 0.20.0
  (c++)"LibRaw::sgetreal(int, unsigned char*)@Base" 0.20.0
  (c++)"LibRaw::FujiCCT_K@Base" 0.20.0
- (c++)"LibRaw::fixupArri()@Base" 0.20.0
  (c++)"LibRaw::tiff_sget(unsigned int, unsigned char*, unsigned int, long long*, unsigned int*, unsigned int*, long long*, unsigned int*, int*)@Base" 0.20.0
- (c++|arch-bits=64)"std::_Vector_base<unsigned char, std::allocator<unsigned char> >::~_Vector_base()@Base" 0.20.0
+ (c++|arch-bits=32)"crxParamInit(CrxImage*, CrxBandParam**, unsigned long long, unsigned long long, unsigned int, unsigned int, bool, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"crxSetupImageData(crx_data_header_t*, CrxImage*, short*, unsigned long long, unsigned int, unsigned char*, int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void const*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void const*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::libraw_swab(void*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::open_buffer(void const*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::malloc_omp_buffers(int, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::remove_trailing_spaces(char*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::memmem(char*, unsigned int, char*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::stread(char*, unsigned int, LibRaw_abstract_datastream*)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::strnlen(char const*, unsigned int)@Base" 0.21.1
+ (c++|arch=i386)"void std::__heap_select<__gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__ops::_Iter_less_iter)@Base" 0.21.1
  default_data_callback@Base 0.16.0
- default_memory_callback@Base 0.16.0
  exCoefNumTbl@Base 0.20.0
  foveon_data@Base 0.16.0
  libraw_COLOR@Base 0.16.0
@@ -551,12 +588,13 @@ libraw.so.20 libraw20 #MINVER#
  libraw_get_raw_width@Base 0.17.0
  libraw_get_rgb_cam@Base 0.17.0
  libraw_init@Base 0.16.0
+ libraw_open_bayer@Base 0.21.1
  libraw_open_buffer@Base 0.16.0
  libraw_open_file@Base 0.16.0
- libraw_open_file_ex@Base 0.16.0
  libraw_raw2image@Base 0.16.0
  libraw_recycle@Base 0.16.0
  libraw_recycle_datastream@Base 0.16.0
+ libraw_set_adjust_maximum_thr@Base 0.21.1
  libraw_set_bright@Base 0.17.0
  libraw_set_dataerror_handler@Base 0.16.0
  libraw_set_demosaic@Base 0.17.0
@@ -564,7 +602,6 @@ libraw.so.20 libraw20 #MINVER#
  libraw_set_fbdd_noiserd@Base 0.17.0
  libraw_set_gamma@Base 0.17.0
  libraw_set_highlight@Base 0.17.0
- libraw_set_memerror_handler@Base 0.16.0
  libraw_set_no_auto_bright@Base 0.17.0
  libraw_set_output_bps@Base 0.17.0
  libraw_set_output_color@Base 0.17.0
@@ -577,27 +614,24 @@ libraw.so.20 libraw20 #MINVER#
  libraw_unpack@Base 0.16.0
  libraw_unpack_function_name@Base 0.16.0
  libraw_unpack_thumb@Base 0.16.0
+ libraw_unpack_thumb_ex@Base 0.21.1
  libraw_version@Base 0.16.0
  libraw_versionNumber@Base 0.16.0
- (c++)"std::ctype<char>::do_widen(char) const@Base" 0.16.0
  (c++)"typeinfo for LibRaw@Base" 0.16.0
  (c++)"typeinfo for LibRaw_abstract_datastream@Base" 0.16.0
  (c++)"typeinfo for LibRaw_bigfile_datastream@Base" 0.16.0
  (c++)"typeinfo for LibRaw_buffer_datastream@Base" 0.16.0
  (c++)"typeinfo for LibRaw_exceptions@Base" 0.16.0
- (c++)"typeinfo for LibRaw_file_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_abstract_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_bigfile_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_buffer_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_exceptions@Base" 0.16.0
- (c++)"typeinfo name for LibRaw_file_datastream@Base" 0.16.0
  (c++)"vtable for LibRaw@Base" 0.16.0
  (c++)"vtable for LibRaw_abstract_datastream@Base" 0.16.0
  (c++)"vtable for LibRaw_bigfile_datastream@Base" 0.16.0
  (c++)"vtable for LibRaw_buffer_datastream@Base" 0.16.0
- (c++)"vtable for LibRaw_file_datastream@Base" 0.16.0
-libraw_r.so.20 libraw20 #MINVER#
+libraw_r.so.23 libraw23 #MINVER#
  (c++)"AAHD::AAHD(LibRaw&)@Base" 0.16.0
  (c++)"AAHD::combine_image()@Base" 0.16.0
  (c++)"AAHD::evaluate_ahd()@Base" 0.16.0
@@ -672,7 +706,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::canon_600_load_raw()@Base" 0.16.0
  (c++)"LibRaw::canon_has_lowbits()@Base" 0.16.0
  (c++)"LibRaw::canon_load_raw()@Base" 0.16.0
- (c++)"LibRaw::canon_rmf_load_raw()@Base" 0.16.0
  (c++)"LibRaw::canon_s2is()@Base" 0.16.0
  (c++)"LibRaw::canon_sraw_load_raw()@Base" 0.16.0
  (c++)"LibRaw::capabilities()@Base" 0.18.0
@@ -732,8 +765,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::fuji_14bit_load_raw()@Base" 0.19.0
  (c++)"LibRaw::fuji_bayer_decode_block(fuji_compressed_block*, fuji_compressed_params const*, int)@Base" 0.19.0
  (c++)"LibRaw::fuji_compressed_load_raw()@Base" 0.19.0
- (c++)"LibRaw::fuji_decode_loop(fuji_compressed_params const*, int, long long*, unsigned int*)@Base" 0.19.0
- (c++)"LibRaw::fuji_decode_strip(fuji_compressed_params const*, int, long long, unsigned int)@Base" 0.19.0
  (c++)"LibRaw::fuji_rotate()@Base" 0.16.0
  (c++)"LibRaw::gamma_curve(double, double, int, int)@Base" 0.16.0
  (c++)"LibRaw::get2()@Base" 0.16.0
@@ -764,7 +795,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::is_nikon_sraw()@Base" 0.17.0
  (c++)"LibRaw::is_phaseone_compressed()@Base" 0.16.0
  (c++)"LibRaw::is_sraw()@Base" 0.16.0
- (c++)"LibRaw::jpeg_thumb()@Base" 0.16.0
  (c++)"LibRaw::jpeg_thumb_writer(_IO_FILE*, char*, int)@Base" 0.16.0
  (c++)"LibRaw::kodak_262_load_raw()@Base" 0.16.0
  (c++)"LibRaw::kodak_65000_decode(short*, int)@Base" 0.16.0
@@ -778,7 +808,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::kodak_thumb_load_raw()@Base" 0.16.0
  (c++)"LibRaw::kodak_thumb_loader()@Base" 0.16.0
  (c++)"LibRaw::kodak_ycbcr_load_raw()@Base" 0.16.0
- (c++)"LibRaw::layer_thumb()@Base" 0.16.0
  (c++)"LibRaw::lch_to_rgb(double (*) [3])@Base" 0.16.0
  (c++)"LibRaw::leaf_hdr_load_raw()@Base" 0.16.0
  (c++)"LibRaw::lin_interpolate()@Base" 0.16.0
@@ -796,7 +825,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++|arch-bits=64)"LibRaw::malloc(unsigned long)@Base" 0.19.0
  (c++)"LibRaw::median4(int*)@Base" 0.16.0
  (c++)"LibRaw::median_filter()@Base" 0.16.0
- (c++)"LibRaw::merror(void*, char const*)@Base" 0.16.0
  (c++)"LibRaw::minolta_rd175_load_raw()@Base" 0.16.0
  (c++)"LibRaw::minolta_z2()@Base" 0.16.0
  (c++)"LibRaw::nikon_3700()@Base" 0.16.0
@@ -809,10 +837,7 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::nikon_yuv_load_raw()@Base" 0.17.0
  (c++)"LibRaw::nokia_load_raw()@Base" 0.16.0
  (c++)"LibRaw::olympus_load_raw()@Base" 0.16.0
- (c++)"LibRaw::open_bayer(unsigned char*, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, unsigned char, unsigned int, unsigned int, unsigned int)@Base" 0.19.0
- (c++|arch-bits=64)"LibRaw::open_buffer(void*, unsigned long)@Base" 0.19.0
  (c++)"LibRaw::open_datastream(LibRaw_abstract_datastream*)@Base" 0.16.0
- (c++)"LibRaw::open_file(char const*, long long)@Base" 0.16.0
  (c++)"LibRaw::packed_dng_load_raw()@Base" 0.16.0
  (c++)"LibRaw::packed_load_raw()@Base" 0.16.0
  (c++)"LibRaw::pana_data(int, unsigned int*)@Base" 0.19.0
@@ -833,11 +858,8 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parse_makernote(int, int)@Base" 0.16.0
  (c++)"LibRaw::parse_makernote_0xc634(int, int, unsigned int)@Base" 0.17.0
  (c++)"LibRaw::parse_minolta(int)@Base" 0.16.0
- (c++)"LibRaw::parse_mos(int)@Base" 0.16.0
  (c++)"LibRaw::parse_phase_one(int)@Base" 0.16.0
  (c++)"LibRaw::parse_qt(int)@Base" 0.17.0
- (c++)"LibRaw::parse_redcine()@Base" 0.16.0
- (c++)"LibRaw::parse_riff()@Base" 0.16.0
  (c++)"LibRaw::parse_rollei()@Base" 0.16.0
  (c++)"LibRaw::parse_sinar_ia()@Base" 0.16.0
  (c++)"LibRaw::parse_smal(int, int)@Base" 0.16.0
@@ -855,8 +877,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::phase_one_load_raw_c()@Base" 0.16.0
  (c++)"LibRaw::phase_one_subtract_black(unsigned short*, unsigned short*)@Base" 0.16.0
  (c++)"LibRaw::ppg_interpolate()@Base" 0.16.0
- (c++)"LibRaw::ppm16_thumb()@Base" 0.16.0
- (c++)"LibRaw::ppm_thumb()@Base" 0.16.0
  (c++)"LibRaw::pre_interpolate()@Base" 0.16.0
  (c++)"LibRaw::processNikonLensData(unsigned char*, unsigned int)@Base" 0.17.0
  (c++)"LibRaw::process_Sony_0x2010(unsigned char*, unsigned short)@Base" 0.19.0
@@ -874,11 +894,9 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::recover_highlights()@Base" 0.16.0
  (c++)"LibRaw::recycle()@Base" 0.16.0
  (c++)"LibRaw::recycle_datastream()@Base" 0.16.0
- (c++)"LibRaw::redcine_load_raw()@Base" 0.16.0
  (c++)"LibRaw::remove_zeroes()@Base" 0.16.0
  (c++)"LibRaw::rgb_to_lch(double (*) [3])@Base" 0.16.0
  (c++)"LibRaw::rollei_load_raw()@Base" 0.16.0
- (c++)"LibRaw::rollei_thumb()@Base" 0.16.0
  (c++)"LibRaw::romm_coeff(float (*) [3])@Base" 0.16.0
  (c++)"LibRaw::samsung2_load_raw()@Base" 0.17.0
  (c++)"LibRaw::samsung3_load_raw()@Base" 0.17.0
@@ -940,7 +958,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw_bigfile_datastream::fname()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::get_char()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::gets(char*, int)@Base" 0.16.0
- (c++)"LibRaw_bigfile_datastream::make_jas_stream()@Base" 0.16.0
  (c++|arch-bits=64)"LibRaw_bigfile_datastream::read(void*, unsigned long, unsigned long)@Base" 0.19.0
  (c++)"LibRaw_bigfile_datastream::scanf_one(char const*, void*)@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::seek(long long, int)@Base" 0.16.0
@@ -948,44 +965,17 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw_bigfile_datastream::tell()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::valid()@Base" 0.16.0
  (c++)"LibRaw_bigfile_datastream::~LibRaw_bigfile_datastream()@Base" 0.16.0
- (c++|arch-bits=64)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void*, unsigned long)@Base" 0.19.0
  (c++)"LibRaw_buffer_datastream::eof()@Base" 0.16.0
  (c++)"LibRaw_buffer_datastream::get_char()@Base" 0.16.0
  (c++)"LibRaw_buffer_datastream::gets(char*, int)@Base" 0.16.0
  (c++)"LibRaw_buffer_datastream::jpeg_src(void*)@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::make_jas_stream()@Base" 0.16.0
- (c++|arch-bits=64)"LibRaw_buffer_datastream::read(void*, unsigned long, unsigned long)@Base" 0.19.0
- (c++)"LibRaw_buffer_datastream::scanf_one(char const*, void*)@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::seek(long long, int)@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::size()@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::tell()@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::valid()@Base" 0.16.0
- (c++)"LibRaw_buffer_datastream::~LibRaw_buffer_datastream()@Base" 0.16.0
  (c++)"LibRaw_constants::d65_white@Base" 0.16.0
  (c++)"LibRaw_constants::xyz_rgb@Base" 0.16.0
- (c++)"LibRaw_file_datastream::LibRaw_file_datastream(char const*)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::eof()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::fname()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::get_char()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::gets(char*, int)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::make_jas_stream()@Base" 0.16.0
- (c++|arch-bits=64)"LibRaw_file_datastream::read(void*, unsigned long, unsigned long)@Base" 0.19.0
- (c++)"LibRaw_file_datastream::scanf_one(char const*, void*)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::seek(long long, int)@Base" 0.16.0
- (c++)"LibRaw_file_datastream::size()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::tell()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::valid()@Base" 0.16.0
- (c++)"LibRaw_file_datastream::~LibRaw_file_datastream()@Base" 0.16.0
- (c++|arch-bits=64)"crxParamInit(libraw_memmgr&, CrxBandParam**, unsigned long, unsigned long, unsigned int, unsigned int, int, unsigned int, LibRaw_abstract_datastream*)@Base" 0.20.0
- (c++|arch-bits=64)"crxSetupImageData(crx_data_header_t*, CrxImage*, short*, unsigned long, unsigned int, int, unsigned char*)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::remove_trailing_spaces(char*, unsigned long)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::stread(char*, unsigned long, LibRaw_abstract_datastream*)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::strnlen(char const*, unsigned long)@Base" 0.20.0
- (c++|arch-bits=32)"LibRaw_file_datastream::read(void*, unsigned int, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw_buffer_datastream::read(void*, unsigned int, unsigned int)@Base" 0.19.0
- (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void*, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw_bigfile_datastream::read(void*, unsigned int, unsigned int)@Base" 0.19.0
- (c++|arch-bits=32)"LibRaw::open_buffer(void*, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw::calloc(unsigned int, unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw::malloc(unsigned int)@Base" 0.19.0
  (c++|arch-bits=32)"LibRaw::realloc(void*, unsigned int)@Base" 0.19.0
@@ -996,26 +986,105 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"crxDecodeTopLine(CrxBandParam*)@Base" 0.20.0
  (c++)"crxFreeImageData(CrxImage*)@Base" 0.20.0
  (c++)"crxFreeSubbandData(CrxImage*, CrxPlaneComp*)@Base" 0.20.0
+ (c++)"setup_qlut(signed char*, int*)@Base" 0.21.1
+ (c++)"sget4_order(short, unsigned char*)@Base" 0.21.1
+ (c++)"crxMakeQStep(CrxImage*, CrxTile*, int*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=64)"crxParamInit(CrxImage*, CrxBandParam**, unsigned long, unsigned long, unsigned int, unsigned int, bool, unsigned int)@Base" 0.21.1
+ (c++)"unsigned_cmp(void const*, void const*)@Base" 0.21.1
+ (c++)"decode_S_type(int, unsigned int*, unsigned short*)@Base" 0.21.1
+ (c++)"sget_fixed32u(short, unsigned char*)@Base" 0.21.1
+ (c++)"AngleConversion(short, unsigned char*)@Base" 0.21.1
+ (c++)"crxUpdateQparam(CrxSubband*)@Base" 0.21.1
+ (c++)"init_main_grads(fuji_compressed_params const*, fuji_compressed_block*)@Base" 0.21.1
+ (c++)"init_main_qtable(fuji_compressed_params*, unsigned char)@Base" 0.21.1
+ (c++)"AngleConversion_a(short, unsigned char*)@Base" 0.21.1
+ (c++|arch-bits=64)"crxSetupImageData(crx_data_header_t*, CrxImage*, short*, unsigned long, unsigned int, unsigned char*, int)@Base" 0.21.1
+ (c++)"crxDecodeGolombTop(CrxBitstream*, int, int*, int*)@Base" 0.21.1
+ (c++)"crxProcessSubbands(crx_data_header_t*, CrxImage*, CrxTile*, CrxPlaneComp*)@Base" 0.21.1
+ (c++)"libraw_int_to_float(int)@Base" 0.21.1
+ (c++)"libraw_sget2_static(short, unsigned char*)@Base" 0.21.1
+ (c++)"libraw_sget4_static(short, unsigned char*)@Base" 0.21.1
+ (c++)"crxDecodeGolombNormal(CrxBitstream*, int, int*, int*, int*)@Base" 0.21.1
+ (c++)"crxIdwt53FilterDecode(CrxPlaneComp*, int, CrxQStep*)@Base" 0.21.1
+ (c++)"libraw_sgetreal_static(short, int, unsigned char*)@Base" 0.21.1
+ (c++)"crxIdwt53FilterInitialize(CrxPlaneComp*, int, CrxQStep*)@Base" 0.21.1
+ (c++)"libraw_tagtype_dataunit_bytes(int)@Base" 0.21.1
+ (c++)"crxDecodeLineWithIQuantization(CrxSubband*, CrxQStep*)@Base" 0.21.1
+ (c++)"CanonCameraInfo_checkFirmwareRecordLocation(unsigned char*)@Base" 0.21.1
+ (c++)"crxReadQP(CrxBitstream*, int)@Base" 0.21.1
+ (c++)"LibRaw_constants::rec2020_rgb@Base" 0.21.1
+ (c++)"LibRaw_constants::dcip3d65_rgb@Base" 0.21.1
+ (c++)"tile_stripe_data_t::init(tiff_ifd_t*, libraw_image_sizes_t const&, unpacker_data_t const&, short, LibRaw_abstract_datastream*)@Base" 0.21.1
+ (c++)"pana_cs6_page_decoder::read_page12()@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw_buffer_datastream::read(void*, unsigned long, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::seek(long long, int)@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::size()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::tell()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::valid()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::scanf_one(char const*, void*)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void const*, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::~LibRaw_buffer_datastream()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::~LibRaw_buffer_datastream()@Base" 0.21.1
+ (c++)"LibRaw_buffer_datastream::~LibRaw_buffer_datastream()@Base" 0.21.1
+ (c++)"LibRaw::open_bayer(unsigned char const*, unsigned int, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned short, unsigned char, unsigned char, unsigned int, unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::parse_riff(int)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw::libraw_swab(void*, unsigned long)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw::open_buffer(void const*, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw::get_CanonArea()@Base" 0.21.1
+ (c++)"LibRaw::parseCR3_CTMD(short)@Base" 0.21.1
+ (c++)"LibRaw::parseCR3_Free()@Base" 0.21.1
+ (c++)"LibRaw::selectCRXFrame(short, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::selectCRXTrack()@Base" 0.21.1
+ (c++)"LibRaw::unpack_thumb_ex(int)@Base" 0.21.1
+ (c++)"LibRaw::free_omp_buffers(char**, int)@Base" 0.21.1
+ (c++|arch-bits=64)"LibRaw::malloc_omp_buffers(int, unsigned long)@Base" 0.21.1
+ (c++)"LibRaw::crxParseImageHeader(unsigned char*, int, int)@Base" 0.21.1
+ (c++)"LibRaw::sony_ljpeg_load_raw()@Base" 0.21.1
+ (c++)"LibRaw::libraw_openfile_tail(LibRaw_abstract_datastream*)@Base" 0.21.1
+ (c++)"LibRaw::parse_fuji_thumbnail(int)@Base" 0.21.1
+ (c++)"LibRaw::phase_one_load_raw_s()@Base" 0.21.1
+ (c++)"LibRaw::parseOlympusMakernotes(int, unsigned int, unsigned int, unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::guess_RAFDataGeneration(unsigned char*)@Base" 0.21.1
+ (c++)"LibRaw::adjust_to_raw_inset_crop(unsigned int, float)@Base" 0.21.1
+ (c++)"LibRaw::phase_one_fix_pixel_grad(unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::packed_tiled_dng_load_raw()@Base" 0.21.1
+ (c++)"LibRaw::phase_one_fix_col_pixel_avg(unsigned int, unsigned int)@Base" 0.21.1
+ (c++)"LibRaw::uncompressed_fp_dng_load_raw()@Base" 0.21.1
+ (c++)"LibRaw::nikon_he_load_raw_placeholder()@Base" 0.21.1
+ (c++)"LibRaw::p1rawc(unsigned int, unsigned int, unsigned int&)@Base" 0.21.1
+ (c++)"LibRaw::parseCR3(long long, long long, short&, char*, short&, short&)@Base" 0.21.1
+ (c++)"LibRaw::open_file(char const*)@Base" 0.21.1
+ (c++)"LibRaw::parse_mos(long long)@Base" 0.21.1
+ (c++)"void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int const&)@Base" 0.21.1
+ (c++)"LibRaw::fuji_decode_loop(fuji_compressed_params*, int, long long*, unsigned int*, unsigned char*)@Base" 0.21.1
+ (c++)"LibRaw::fuji_decode_strip(fuji_compressed_params*, int, long long, unsigned int, unsigned char*)@Base" 0.21.1
  (c++)"crxConvertPlaneLine(CrxImage*, int, int, int, int*, int)@Base" 0.20.0
  (c++)"crxReadImageHeaders(crx_data_header_t*, CrxImage*, unsigned char*, int)@Base" 0.20.0
  (c++)"crxSetupSubbandData(CrxImage*, CrxPlaneComp*, CrxTile const*, unsigned int)@Base" 0.20.0
  (c++)"crxDecodeLineRounded(CrxBandParam*)@Base" 0.20.0
- (c++)"crxIdwt53FilterDecode(CrxPlaneComp*, int)@Base" 0.20.0
  (c++)"crxReadSubbandHeaders(crx_data_header_t*, CrxImage*, CrxTile*, CrxPlaneComp*, unsigned char**, int*)@Base" 0.20.0
  (c++)"crxIdwt53FilterGetLine(CrxPlaneComp*, int)@Base" 0.20.0
  (c++)"crxDecodeTopLineRounded(CrxBandParam*)@Base" 0.20.0
  (c++)"crxIdwt53FilterTransform(CrxPlaneComp*, unsigned int)@Base" 0.20.0
- (c++)"crxIdwt53FilterInitialize(CrxPlaneComp*, int)@Base" 0.20.0
  (c++)"crxDecodeLineNoRefPrevLine(CrxBandParam*)@Base" 0.20.0
  (c++)"crxDecodeTopLineNoRefPrevLine(CrxBandParam*)@Base" 0.20.0
- (c++)"crxDecodeLineWithIQuantization(CrxSubband*)@Base" 0.20.0
  (c++)"LibRaw_constants::xyzd50_srgb@Base" 0.20.0
  (c++)"LibRaw_constants::prophoto_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::rgb_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::aces_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::wide_rgb@Base" 0.20.0
  (c++)"LibRaw_constants::adobe_rgb@Base" 0.20.0
+ (c++|arch-bits=32)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
+ (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
+ (c++)"libraw_static_table_t::operator[](unsigned int) const@Base" 0.21.1
+ (c++|arch-bits=64)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)@Base" 0.21.1
+ (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
+ (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
+ (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
+ (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
  (c++)"pana_cs6_page_decoder::read_page()@Base" 0.20.0
+ q_step_tbl@Base 0.21.1
  (c++)"LibRaw_abstract_datastream::buffering_off()@Base" 0.20.0
  (c++)"LibRaw::aRGB_coeff(double (*) [3])@Base" 0.20.0
  (c++)"LibRaw::crxLoadRaw()@Base" 0.20.0
@@ -1032,7 +1101,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parse_kyocera()@Base" 0.20.0
  (c++)"LibRaw::PentaxLensInfo(unsigned long long, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::crxDecodePlane(void*, unsigned int)@Base" 0.20.0
- (c++)"LibRaw::selectCRXTrack(short)@Base" 0.20.0
  (c++)"LibRaw::Nikon_NRW_WBtag(int, int)@Base" 0.20.0
  (c++)"LibRaw::Pentax_wb_list1@Base" 0.20.0
  (c++)"LibRaw::Pentax_wb_list2@Base" 0.20.0
@@ -1054,7 +1122,6 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parseLeicaLensName(unsigned int)@Base" 0.20.0
  (c++)"LibRaw::parse_exif_interop(int)@Base" 0.20.0
  (c++)"LibRaw::process_Hassy_Lens(int)@Base" 0.20.0
- (c++)"LibRaw::crxParseImageHeader(unsigned char*, int)@Base" 0.20.0
  (c++)"LibRaw::parseEpsonMakernote(int, int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::parseFujiMakernotes(unsigned int, unsigned int, unsigned int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::parseLeicaMakernote(int, int, unsigned int)@Base" 0.20.0
@@ -1106,21 +1173,28 @@ libraw_r.so.20 libraw20 #MINVER#
  (c++)"LibRaw::parseOlympus_ImageProcessing(unsigned int, unsigned int, unsigned int, unsigned int)@Base" 0.20.0
  (c++)"LibRaw::vc5_dng_load_raw_placeholder()@Base" 0.20.0
  (c++)"LibRaw::identify_finetune_by_filesize(int)@Base" 0.20.0
- (c++)"LibRaw::float_dng_load_raw_placeholder()@Base" 0.20.0
  (c++)"LibRaw::Canon_KeyIsZero_Len2048_linenums_2_StdWBi@Base" 0.20.0
  (c++)"LibRaw::Canon_KeyIs0x0410_Len2048_linenums_2_StdWBi@Base" 0.20.0
  (c++)"LibRaw::Canon_KeyIs0x0410_Len3072_linenums_2_StdWBi@Base" 0.20.0
  (c++)"LibRaw::p1raw(unsigned int, unsigned int)@Base" 0.20.0
  (c++|arch-bits=64)"LibRaw::memmem(char*, unsigned long, char*, unsigned long)@Base" 0.20.0
  (c++)"LibRaw::getwords(char*, char**, int, int)@Base" 0.20.0
- (c++)"LibRaw::parseCR3(unsigned long long, unsigned long long, short&, char*, short&, short&)@Base" 0.20.0
  (c++)"LibRaw::sgetreal(int, unsigned char*)@Base" 0.20.0
  (c++)"LibRaw::FujiCCT_K@Base" 0.20.0
- (c++)"LibRaw::fixupArri()@Base" 0.20.0
  (c++)"LibRaw::tiff_sget(unsigned int, unsigned char*, unsigned int, long long*, unsigned int*, unsigned int*, long long*, unsigned int*, int*)@Base" 0.20.0
- (c++|arch-bits=64)"std::_Vector_base<unsigned char, std::allocator<unsigned char> >::~_Vector_base()@Base" 0.20.0
+ (c++|arch-bits=32)"crxParamInit(CrxImage*, CrxBandParam**, unsigned long long, unsigned long long, unsigned int, unsigned int, bool, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"crxSetupImageData(crx_data_header_t*, CrxImage*, short*, unsigned long long, unsigned int, unsigned char*, int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void const*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw_buffer_datastream::LibRaw_buffer_datastream(void const*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::libraw_swab(void*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::open_buffer(void const*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::malloc_omp_buffers(int, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::remove_trailing_spaces(char*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::memmem(char*, unsigned int, char*, unsigned int)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::stread(char*, unsigned int, LibRaw_abstract_datastream*)@Base" 0.21.1
+ (c++|arch-bits=32)"LibRaw::strnlen(char const*, unsigned int)@Base" 0.21.1
+ (c++|arch=i386)"void std::__heap_select<__gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__normal_iterator<p1_row_info_t*, std::vector<p1_row_info_t, std::allocator<p1_row_info_t> > >, __gnu_cxx::__ops::_Iter_less_iter)@Base" 0.21.1
  default_data_callback@Base 0.16.0
- default_memory_callback@Base 0.16.0
  exCoefNumTbl@Base 0.20.0
  foveon_data@Base 0.16.0
  libraw_COLOR@Base 0.16.0
@@ -1149,12 +1223,13 @@ libraw_r.so.20 libraw20 #MINVER#
  libraw_get_raw_width@Base 0.17.0
  libraw_get_rgb_cam@Base 0.17.0
  libraw_init@Base 0.16.0
+ libraw_open_bayer@Base 0.21.1
  libraw_open_buffer@Base 0.16.0
  libraw_open_file@Base 0.16.0
- libraw_open_file_ex@Base 0.16.0
  libraw_raw2image@Base 0.16.0
  libraw_recycle@Base 0.16.0
  libraw_recycle_datastream@Base 0.16.0
+ libraw_set_adjust_maximum_thr@Base 0.21.1
  libraw_set_bright@Base 0.17.0
  libraw_set_dataerror_handler@Base 0.16.0
  libraw_set_demosaic@Base 0.17.0
@@ -1162,7 +1237,6 @@ libraw_r.so.20 libraw20 #MINVER#
  libraw_set_fbdd_noiserd@Base 0.17.0
  libraw_set_gamma@Base 0.17.0
  libraw_set_highlight@Base 0.17.0
- libraw_set_memerror_handler@Base 0.16.0
  libraw_set_no_auto_bright@Base 0.17.0
  libraw_set_output_bps@Base 0.17.0
  libraw_set_output_color@Base 0.17.0
@@ -1175,23 +1249,20 @@ libraw_r.so.20 libraw20 #MINVER#
  libraw_unpack@Base 0.16.0
  libraw_unpack_function_name@Base 0.16.0
  libraw_unpack_thumb@Base 0.16.0
+ libraw_unpack_thumb_ex@Base 0.21.1
  libraw_version@Base 0.16.0
  libraw_versionNumber@Base 0.16.0
- (c++)"std::ctype<char>::do_widen(char) const@Base" 0.16.0
  (c++)"typeinfo for LibRaw@Base" 0.16.0
  (c++)"typeinfo for LibRaw_abstract_datastream@Base" 0.16.0
  (c++)"typeinfo for LibRaw_bigfile_datastream@Base" 0.16.0
  (c++)"typeinfo for LibRaw_buffer_datastream@Base" 0.16.0
  (c++)"typeinfo for LibRaw_exceptions@Base" 0.16.0
- (c++)"typeinfo for LibRaw_file_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_abstract_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_bigfile_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_buffer_datastream@Base" 0.16.0
  (c++)"typeinfo name for LibRaw_exceptions@Base" 0.16.0
- (c++)"typeinfo name for LibRaw_file_datastream@Base" 0.16.0
  (c++)"vtable for LibRaw@Base" 0.16.0
  (c++)"vtable for LibRaw_abstract_datastream@Base" 0.16.0
  (c++)"vtable for LibRaw_bigfile_datastream@Base" 0.16.0
  (c++)"vtable for LibRaw_buffer_datastream@Base" 0.16.0
- (c++)"vtable for LibRaw_file_datastream@Base" 0.16.0
