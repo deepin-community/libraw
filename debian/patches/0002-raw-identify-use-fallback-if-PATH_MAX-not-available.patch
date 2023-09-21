@@ -1,0 +1,28 @@
+From: Pino Toscano <toscano.pino@tiscali.it>
+Date: Sun, 1 Nov 2020 11:07:23 +0100
+Forwarded: not-needed
+Subject: raw-identify: use fallback if PATH_MAX not available
+
+PATH_MAX is optional in POSIX, so define a fallback value if not
+available. While ideally it should not be relied upon, a fallback value
+is enough for a sample application.
+---
+ samples/raw-identify.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/samples/raw-identify.cpp b/samples/raw-identify.cpp
+index ced5181..31c770d 100644
+--- a/samples/raw-identify.cpp
++++ b/samples/raw-identify.cpp
+@@ -40,7 +40,11 @@ it under the terms of the one of two licenses as you choose:
+ #include <sys/mman.h>
+ #include <sys/time.h>
+ #ifndef MAX_PATH
++#ifdef PATH_MAX
+ #define MAX_PATH PATH_MAX
++#else
++#define MAX_PATH 4096
++#endif
+ #endif
+ #endif
+ 
