@@ -1,3 +1,9 @@
+libraw (0.21.1-7deepin1) unstable; urgency=medium
+
+  * delete symbols from libraw23.symlbols
+
+ -- bluesky <chenchongbiao@deepin.org>  Mon, 25 Sep 2023 13:59:40 +0800
+
 libraw (0.21.1-7) unstable; urgency=medium
 
   * debian/libraw23.symbols: more symbols fixing

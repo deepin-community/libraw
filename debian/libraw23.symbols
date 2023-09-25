@@ -444,12 +444,6 @@ libraw.so.23 libraw23 #MINVER#
  (c++|arch-bits=32)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned int)@Base" 0.21.1
  (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
  (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
- (c++)"libraw_static_table_t::operator[](unsigned int) const@Base" 0.21.1
- (c++|arch-bits=64)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)@Base" 0.21.1
- (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
- (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
- (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
- (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
  (c++)"pana_cs6_page_decoder::read_page()@Base" 0.20.0
  (c++)"LibRaw_abstract_datastream::buffering_off()@Base" 0.20.0
  (c++)"LibRaw::aRGB_coeff(double (*) [3])@Base" 0.20.0
@@ -1077,12 +1071,6 @@ libraw_r.so.23 libraw23 #MINVER#
  (c++|arch-bits=32)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned int)@Base" 0.21.1
  (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
  (c++|arch-bits=32)"std::vector<unsigned int, std::allocator<unsigned int> >::~vector()@Base" 0.21.1
- (c++)"libraw_static_table_t::operator[](unsigned int) const@Base" 0.21.1
- (c++|arch-bits=64)"std::vector<char, std::allocator<char> >::_M_default_append(unsigned long)@Base" 0.21.1
- (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
- (c++)"std::vector<unsigned char, std::allocator<unsigned char> >::~vector()@Base" 0.21.1
- (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
- (c++|arch-bits=64)"std::vector<unsigned long, std::allocator<unsigned long> >::~vector()@Base" 0.21.1
  (c++)"pana_cs6_page_decoder::read_page()@Base" 0.20.0
  q_step_tbl@Base 0.21.1
  (c++)"LibRaw_abstract_datastream::buffering_off()@Base" 0.20.0
