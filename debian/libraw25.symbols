@@ -1,0 +1,3 @@
+libraw.so.25 libraw25 #MINVER#
+ * Build-Depends-Package: libraw-dev
+###Symbols file will be updated during build###
