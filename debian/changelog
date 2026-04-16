@@ -1,3 +1,18 @@
+libraw (0.22.1-1deepin1) unstable; urgency=medium
+
+  * New upstream version 0.22.1      This update fixes the following
+    CVEs:     - CVE-2026-24660: heap-based buffer overflow in
+    x3f_load_huffman     - CVE-2026-24450: integer overflow in
+    uncompressed_fp_dng_load_raw     - CVE-2026-21413: heap-based buffer
+    overflow in lossless_jpeg_load_raw     - CVE-2026-20911: heap-based
+    buffer overflow in HuffTable::initval     - CVE-2026-20889: heap-
+    based buffer overflow in x3f_thumb_loader     - CVE-2026-20884:
+    integer overflow in deflate_dng_load_raw     - CVE-2026-5318: out-of-
+    bounds write in HuffTable::initval     - CVE-2026-5342: out-of-
+    bounds read in nikon_load_padded_packed_raw
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 16 Apr 2026 23:31:55 +0800
+
 libraw (0.21.1-7deepin1) unstable; urgency=medium
 
   * delete symbols from libraw23.symlbols
